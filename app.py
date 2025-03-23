@@ -33,7 +33,7 @@ if st.button("Process URLs"):
         text = util.preprocess(text)
         documents = util.create_chunks(text)
         documented_texts = util.documented(documents)
-        st.write(documented_texts)
+        #st.write(documented_texts)
         
         # Store processed data in session state
         st.session_state["documents"] = documents

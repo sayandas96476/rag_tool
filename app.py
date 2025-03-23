@@ -44,7 +44,7 @@ if st.button("Process URLs"):
 
 # Input Box 2 (Always Visible)
 input2 = st.text_input("Enter second input:", key="input2")
-if st.button("Submit 2"):
+if st.button("Submit"):
     if input2:
         if st.session_state["documents"] and st.session_state["documented_texts"]:
             query = input2

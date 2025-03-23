@@ -11,7 +11,7 @@ if "documented_texts" not in st.session_state:
 if "urls" not in st.session_state:
     st.session_state["urls"] = []
 
-st.title("Sequential Input Form")
+st.title("Web Search RAG")
 
 # Input Box 1 - Add Multiple URLs
 new_url = st.text_input("Enter a URL to add:", key="new_url")
